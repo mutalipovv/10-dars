@@ -22,6 +22,11 @@
   src: url("../fonts/dm-sans-v15-latin-700.woff2") format("woff2");
 }
 
+.dark-mode {
+  background-color: rgb(18, 18, 23);
+  color: #fff;
+}
+
 html {
   height: 100%;
   object-fit: contain;
@@ -33,6 +38,7 @@ body {
   font-family: "DM Sans", sans-serif;
   background-image: url("../images/bg.svg");
   background-repeat: no-repeat;
+  transition: background-color 1s ease, color 1s ease;
 }
 
 .container {
